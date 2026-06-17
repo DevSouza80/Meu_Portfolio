@@ -23,7 +23,7 @@
 > **Substitua a imagem abaixo pelo print do seu projeto:**
 
 <!-- Cole aqui o print do seu portfólio -->
-![Preview do Portfólio](./assets/img/preview.png)
+![Preview do Portfólio](./assets/img/hero.png)
 
 ---
 
