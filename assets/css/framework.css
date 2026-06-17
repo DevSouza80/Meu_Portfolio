@@ -1,0 +1,18 @@
+/* import css */
+@import "./color.css";
+/**/
+/* framework css */
+.container-page {
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.flex-dimension {
+    display:flex;
+}
+
+span {
+color:var(--color-one);
+}
+/**/

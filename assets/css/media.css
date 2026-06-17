@@ -1,0 +1,168 @@
+/* Media Queries */
+
+@media screen and (max-width:1066px){
+
+section.session-project  .flex-dimension {
+   flex-wrap: wrap;
+}
+
+
+}
+
+
+@media screen and (max-width:1021px){
+section.session-about .flex-dimension {
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.title-about {
+    text-align: center;
+}
+
+.border-bottom {
+    margin: 0 auto;
+}
+
+.text-right p {
+ font-size: 1rem;
+ text-align: center;
+}
+
+}
+
+@media screen and (max-width:959px){
+
+section.session-servicos  .flex-dimension {
+  flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width:892px){
+ nav.nav-desktop .list-nav {
+   display:none;
+}    
+
+
+
+.wrapper-mobile {
+    display:block;
+}
+
+.social-mobile {
+    display:block;
+
+}
+.list-mobile {
+    display:block;
+}
+
+.icons-header {
+    display:none;
+}
+}
+
+@media screen and (max-width:711px){
+  
+section.session-project  .grid-projects {
+    grid-template-columns:repeat(1,1fr);
+    max-width: 300px;
+}
+
+}
+
+@media screen and (max-width:687px){
+  
+footer .flex-dimension {
+   flex-direction: column;
+}
+
+nav.nav-footer .list-footer {
+   margin-top:2rem;
+}
+
+.icons-footer {
+   margin-top:2rem;
+}
+
+
+}
+
+@media screen and (max-width:660px){
+  
+.text-right p {
+  max-width:500px;
+}
+
+}
+
+@media screen and (max-width:602px){
+    .title-information h1 {
+        font-size:2.5rem;
+        max-width:500px;
+        margin:10px auto;
+   }
+
+   .title-information p {
+        font-size: 1rem;
+        max-width:420px;
+   }
+
+}
+
+@media screen and (max-width:584px){
+  
+.title-contact p {
+    
+   max-width:400px;
+   margin: 0 auto;
+   line-height:28px;
+
+
+
+}
+
+}
+
+@media screen and (max-width:559px){
+  
+.skills-line h2 {
+   text-align: center;
+}
+
+.grid-soft {
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:1rem;
+}
+
+
+}
+
+@media screen and (max-width:390px){
+
+.left-image img {
+    width:350px;
+}
+
+
+form.form-register {
+    width:93%;
+    
+   
+}
+
+
+}
+
+@media screen and (max-width:375px){
+
+.grid-soft {
+    grid-template-columns:repeat(1,1fr);
+   
+}
+
+
+}
+
+/**/
